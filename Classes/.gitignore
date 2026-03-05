@@ -1,0 +1,21 @@
+# Visual Studio 构建目录和用户文件
+proj.win32/.vs/
+proj.win32/Debug*/
+proj.win32/Release*/
+proj.win32/*.vcxproj.user
+proj.win32/*.sdf
+*.pdb
+*.idb
+*.ilk
+
+# 预编译头文件
+*.pch
+*.ipch
+
+# Cocos2d-x 引擎编译输出
+cocos2d/cocos/2d/Debug*/
+cocos2d/cocos/2d/Release*/
+
+# 其他可能的大文件或无关目录
+*.db
+*.opendb
